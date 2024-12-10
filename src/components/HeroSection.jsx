@@ -4,52 +4,52 @@ const HeroSection = () => {
     <section className="relative bg-white text-center py-16">
       {/* SVG Background */}
       <div
-        className="absolute inset-0 z-0 flex justify-center items-center mt-[300px]"
+        className="absolute md:inset-0 md:z-0 flex justify-center items-center mt-[300px]"
         style={{ top: "100px" }}
       >
         <img
           src="/images/svgviewer-output.svg"
           alt="Background pattern"
-          className="w-full h-auto"
+          className="w-full h-auto hidden md:block"
         />
 
         {/* Additional Images on top of SVG */}
-        <div className="absolute inset-0 flex justify-center items-center">
+        <div className="absolute hidden inset-0 md:flex justify-center items-center">
           {/* Image 1 */}
           <img
             src="/images/image-02.png"
             alt="Icon 1"
-            className="absolute w-16 h-16 top-60 left-40"
+            className="absolute w-20 h-20 top-60 left-40"
           />
           {/* Image 2 */}
           <img
             src="/images/image-01.png"
             alt="Icon 2"
-            className="absolute w-16 h-16 bottom-[-800%] right-[30%]"
+            className="absolute w-20 h-20 bottom-[-800%] right-[30%]"
           />
           {/* Image 3 */}
           <img
             src="/images/image-03.png"
             alt="Icon 3"
-            className="absolute w-16 h-16 top-[450%] left-[30%]"
+            className="absolute w-20 h-20 top-[450%] left-[30%]"
           />
           {/* Image 4 */}
           <img
             src="/images/image-04.png"
             alt="Icon 4"
-            className="absolute w-16 h-16 top-[-200%] left-[20%]"
+            className="absolute w-20 h-20 top-[-200%] left-[20%]"
           />
           {/* Image 5 */}
           <img
             src="/images/image-05.png"
             alt="Icon 4"
-            className="absolute w-16 h-16 bottom-[-400%] right-[25%]"
+            className="absolute w-20 h-20 bottom-[-400%] right-[25%]"
           />
           {/* Image 6 */}
           <img
             src="/images/image-06.png"
             alt="Icon 4"
-            className="absolute w-16 h-16 bottom-[150%] right-[15%]"
+            className="absolute w-20 h-20 bottom-[150%] right-[15%]"
           />
         </div>
       </div>

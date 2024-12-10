@@ -35,21 +35,21 @@ function RedFeedback() {
             <img
               src="/images/feedback-03.svg"
               alt="codeimage-01"
-              className="rounded-lg mx-auto"
+              className="rounded-lg mx-auto w-[343px] md:w-fit"
             />
           </div>
           <div>
             <img
               src="/images/feedback-04.svg"
               alt="codeimage-01"
-              className="rounded-lg mx-auto"
+              className="rounded-lg mx-auto w-[343px] md:w-fit"
             />
           </div>
           <div>
             <img
               src="/images/feedback-05.svg"
               alt="codeimage-01"
-              className="rounded-lg mx-auto"
+              className="rounded-lg mx-auto w-[343px] md:w-fit"
             />
           </div>
         </div>

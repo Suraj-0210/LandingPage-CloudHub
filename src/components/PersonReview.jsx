@@ -8,7 +8,7 @@ function PersonReview() {
             alt="reviewimg-01"
             className="rounded-lg h-[51.99px] w-[51.99px]"
           />
-          <p className="leading-[30px]">
+          <p className="leading-[30px] font-normal font-inter">
             Cloudhub has emerged as an essential asset for the team at Patreon
             design. Amidst an accelerated expanding organization in which the
             product undergoes rapid changes, Campsite enables us to maintain
@@ -35,7 +35,7 @@ function PersonReview() {
             alt="reviewimg-01"
             className="rounded-lg h-[51.99px] w-[51.99px]"
           />
-          <p className="leading-[30px]">
+          <p className="leading-[30px] font-normal font-inter">
             Cloudhub has emerged as an essential asset for the team at Patreon
             design. Amidst an accelerated expanding organization in which the
             product undergoes rapid changes, Campsite enables us to maintain

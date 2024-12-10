@@ -1,7 +1,7 @@
 function LovedByDesigner() {
   return (
-    <div className="text-center py-8 mt-[30px]">
-      <h2 className="text-2xl lg:text-[54px] font-bold mb-10 md:mb-[70px]">
+    <div className="text-center py-[70px] mt-[30px]">
+      <h2 className="text-2xl lg:text-[54px] font-bold mb-[100px] md:mb-[70px]">
         Loved By Designers At
       </h2>
       {/* Container for the logos */}

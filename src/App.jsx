@@ -16,10 +16,10 @@ export default function App() {
     <>
       <Navbar />
       {/* Wrapper with margin to ensure no overlap */}
-      <div className="relative mx-auto">
-        {/* HeroSection */}
-        <HeroSection />
-      </div>
+
+      {/* HeroSection */}
+      <HeroSection />
+
       {/* Spacer div to push content below the absolutely positioned content */}
       <div className="md:h-[400px] h-[100px]"></div>
       {/* LogoBanner */}
