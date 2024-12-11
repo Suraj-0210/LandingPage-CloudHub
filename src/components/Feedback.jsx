@@ -28,7 +28,7 @@ function Feedback() {
             </div>
           </div>
           <div className="flex gap-3">
-            <FaCirclePlay className="text-[#FB432C]  text-2xl" />
+            <FaCirclePlay className="text-[#FB432C]  text-2xl transition-transform duration-300 ease-in-out hover:scale-110 hover:rotate-90 animate-spin-slow" />
             <p className="font-semibold text-[16px]">See how it works</p>
           </div>
         </div>

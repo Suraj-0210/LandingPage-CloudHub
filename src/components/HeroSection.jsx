@@ -72,14 +72,16 @@ const HeroSection = () => {
           Start for free
         </button>
 
-        {/* Footer text link */}
-        <p className="mt-4 text-gray-500 md:flex items-center justify-center hidden ">
+        <p className="mt-4 text-gray-500 md:flex items-center justify-center hidden">
           Want to talk or get a live demo?{" "}
-          <b className="text-black flex items-center ml-2">
-            <a href="#" className="hover:underline">
+          <b className="text-black flex items-center ml-2 group">
+            <a
+              href="#"
+              className="hover:underline transition duration-300 ease-in-out"
+            >
               Get in touch
             </a>
-            <FaArrowRight className="ml-2 my-auto text-black" />
+            <FaArrowRight className="ml-2 my-auto text-black transform transition-transform duration-300 ease-in-out group-hover:translate-x-2" />
           </b>
         </p>
       </div>

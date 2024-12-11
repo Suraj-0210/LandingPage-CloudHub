@@ -24,20 +24,23 @@ function ShareAnything() {
             </div>
           </div>
           <div className="flex gap-4">
-            <div className="flex gap-2 ">
-              <TiTick className=" rounded-md text-xl my-auto" />
+            <div className="flex gap-2 items-center">
+              {/* Tick Icon Animation */}
+              <TiTick className="rounded-md text-xl my-auto  transition-transform duration-300 ease-in-out hover:scale-125 animate-bounce" />
               <p className="font-inter font-normal text-[18px]">Coded</p>
             </div>
-            <div className="flex gap-2">
-              <TiTick className=" rounded-md text-xl my-auto" />
+            <div className="flex gap-2 items-center">
+              <TiTick className="rounded-md text-xl my-auto transition-transform duration-300 ease-in-out hover:scale-125 animate-bounce" />
               <p className="font-inter font-normal text-[18px]">100 % Secure</p>
             </div>
           </div>
-          <div className="flex gap-3">
-            <FaCirclePlay className="text-[#FB432C]  text-2xl" />
+          <div className="flex gap-3 items-center">
+            {/* Circle Play Animation */}
+            <FaCirclePlay className="text-[#FB432C] text-2xl transition-transform duration-300 ease-in-out hover:scale-110 hover:rotate-90 animate-spin-slow" />
             <p className="font-semibold text-[16px]">See how it works</p>
           </div>
         </div>
+
         <img
           src="/images/codeimage-01.svg"
           alt="codeimage-01"
